@@ -1,0 +1,358 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Furahia Africa Store</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background: #0c2e0c; color: white; padding: 1em; text-align: center; }
+    .products { display: flex; flex-wrap: wrap; gap: 1em; padding: 1em; justify-content: center; background: #fafafa; }
+    .product { border: 1px solid #ccc; border-radius: 10px; padding: 1em; width: 200px; text-align: center; background: #fff; }
+    .product img { width: 100%; border-radius: 8px; height: 150px; object-fit: cover; }
+    .paypal-button { background: green; color: white; border: none; padding: 0.5em 1em; border-radius: 5px; cursor: pointer; }
+    section { padding: 2em; }
+    form input, form textarea { width: 100%; padding: 0.5em; margin: 0.5em 0; }
+    form button { padding: 0.5em 1em; background: green; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    @media (max-width: 600px) {
+      .products { flex-direction: column; align-items: center; }
+      .product { width: 90%; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Furahia Africa Store</h1>
+  <p>Authentic African Products Delivered Worldwide</p>
+</header>
+
+<section class="products">
+  
+    <div class="product">
+      <img src="African-Print-Fabric.jpg" alt="African Print Fabric" />
+      <h4>African Print Fabric</h4>
+      <p>$30.00</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="furahiaafrikastore@gmail.com">
+        <input type="hidden" name="item_name" value="African Print Fabric">
+        <input type="hidden" name="amount" value="30.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+      </form>
+    </div>
+    
+
+    <div class="product">
+      <img src="Shea-Butter.jpg" alt
+      ="Shea Butter" />
+      <h4>Shea Butter</h4>
+      <p>$15.00</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="furahiaafrikastore@gmail.com">
+        <input type="hidden" name="item_name" value="Shea Butter">
+        <input type="hidden" name="amount" value="15.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+      </form>
+    </div>
+    
+
+    <div class="product">
+      <img src="Beaded-Maasai-Necklace.jpg" alt="Beaded Maasai Necklace" />
+      <h4>Beaded Maasai Necklace</h4>
+      <p>$25.00</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="furahiaafrikastore@gmail.com">
+        <input type="hidden" name="item_name" value="Beaded Maasai Necklace">
+        <input type="hidden" name="amount" value="25.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+      </form>
+    </div>
+    
+
+    <div class="product">
+      <img src="Wooden-Cooking-spoons.jpg" alt="Wooden Cooking Spoons" />
+      <h4>Wooden Cooking Spoons</h4>
+      <p>$18.00</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="furahiaafrikastore@gmail.com">
+        <input type="hidden" name="item_name" value="Wooden Cooking Spoons">
+        <input type="hidden" name="amount" value="18.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+      </form>
+    </div>
+    
+
+    <div class="product">
+      <img src="Handmade-Herbal-Soap.jpg" alt="Handmade Herbal Soap" />
+      <h4>Handmade Herbal Soap</h4>
+      <p>$8.00</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="furahiaafrikastore@gmail.com">
+        <input type="hidden" name="item_name" value="Handmade Herbal Soap">
+        <input type="hidden" name="amount" value="8.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+      </form>
+    </div>
+    
+
+    <div class="product">
+      <img src="Soapstone-Carving.jpg" alt="Soapstone Carving" />
+      <h4>Soapstone Carving</h4>
+      <p>$25.00</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="furahiaafrikastore@gmail.com">
+        <input type="hidden" name="item_name" value="Soapstone Carving">
+        <input type="hidden" name="amount" value="25.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+      </form>
+    </div>
+    
+
+    <div class="product">
+      <img src="Wooden-Bowl.jpg" alt="Wooden Bowl" />
+      <h4>Wooden Bowl</h4>
+      <p>$16.00</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="furahiaafrikastore@gmail.com">
+        <input type="hidden" name="item_name" value="Wooden Bowl">
+        <input type="hidden" name="amount" value="16.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+      </form>
+    </div>
+    
+
+    <div class="product">
+      <img src="Traditional-Kenyan-Drum.jpg" alt="Traditional Kenyan Drum" />
+      <h4>Traditional Kenyan Drum</h4>
+      <p>$50.00</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="furahiaafrikastore@gmail.com">
+        <input type="hidden" name="item_name" value="Traditional Kenyan Drum">
+        <input type="hidden" name="amount" value="50.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+      </form>
+    </div>
+    
+
+    <div class="product">
+      <img src="Maasai-Shuka.jpg" alt
+      ="Maasai Shuka" />
+      <h4>Maasai Shuka</h4>
+      <p>$21.00</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="furahiaafrikastore@gmail.com">
+        <input type="hidden" name="item_name" value="Maasai Shuka">
+        <input type="hidden" name="amount" value="21.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+      </form>
+    </div>
+    
+
+    <div class="product">
+      <img src="Safari-Animal-Figurines.jpg" alt="Safari Animal Figurines" />
+      <h4>Safari Animal Figurines</h4>
+      <p>$35.00</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="furahiaafrikastore@gmail.com">
+        <input type="hidden" name="item_name" value="Safari Animal Figurines">
+        <input type="hidden" name="amount" value="35.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+      </form>
+    </div>
+    
+
+    <div class="product">
+      <img src="Ankara-Tote-Bag.jpg" alt
+      ="Ankara Tote Bag" />
+      <h4>Ankara Tote Bag</h4>
+      <p>$30.00</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="furahiaafrikastore@gmail.com">
+        <input type="hidden" name="item_name" value="Ankara Tote Bag">
+        <input type="hidden" name="amount" value="30.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+      </form>
+    </div>
+    
+
+    <div class="product">
+      <img src="Baobab-Oil.jpg" alt
+      ="Baobab Oil" />
+      <h4>Baobab Oil</h4>
+      <p>$20.00</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="furahiaafrikastore@gmail.com">
+        <input type="hidden" name="item_name" value="Baobab Oil">
+        <input type="hidden" name="amount" value="20.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+      </form>
+    </div>
+    
+
+    <div class="product">
+      <img src="African-Print-Headwrap.jpg" alt="African Print Headwrap" />
+      <h4>African Print Headwrap</h4>
+      <p>$15.00</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="furahiaafrikastore@gmail.com">
+        <input type="hidden" name="item_name" value="African Print Headwrap">
+        <input type="hidden" name="amount" value="15.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+      </form>
+    </div>
+    
+
+    <div class="product">
+      <img src="Handwoven-Kikapu-Bag.jpg" alt="Handwoven Kikapu Bag" />
+      <h4>Handwoven Kikapu Bag</h4>
+      <p>$20.00</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="furahiaafrikastore@gmail.com">
+        <input type="hidden" name="item_name" value="Handwoven Kikapu Bag">
+        <input type="hidden" name="amount" value="20.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+      </form>
+    </div>
+    
+
+    <div class="product">
+      <img src="Kenyan-Coffee.jpg" alt
+      ="Kenyan Coffee" />
+      <h4>Kenyan Coffee</h4>
+      <p>$25.00</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="furahiaafrikastore@gmail.com">
+        <input type="hidden" name="item_name" value="Kenyan Coffee">
+        <input type="hidden" name="amount" value="25.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+      </form>
+    </div>
+    
+
+    <div class="product">
+      <img src="Maasai-Beaded-sandles.jpg" alt="Maasai Beaded sandles" />
+      <h4>maasai Beaded sandles</h4>
+      <p>$30.00</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="furahiaafrikastore@gmail.com">
+        <input type="hidden" name="item_name" value="maasai Beaded sandles">
+        <input type="hidden" name="amount" value="30.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+      </form>
+    </div>
+    
+</section>
+
+<section style="background: #e8f5e9; text-align: center;">
+  <h2>Pay with M-Pesa</h2>
+  <p>Go to M-Pesa > Send Money</p>
+  <p><strong>Send to:</strong> 0712703707</p>
+  <p>After payment, WhatsApp us your order and payment confirmation.</p>
+</section>
+
+<section id="about" style="background: #f5f5f5;">
+  <h2>About Us</h2>
+  <p style="max-width: 800px; margin: auto;">Furahia Africa Store is your gateway to authentic, handmade African treasures. We work with local artisans across Kenya to bring you high-quality, sustainable products that showcase the beauty of African culture.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form action="https://formsubmit.io/send/furahiaafrikastore@gmail.com" method="POST" style="max-width: 500px; margin: auto;">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Furahia Africa Store. All rights reserved.</p>
+</footer>
+
+<!-- WhatsApp Chat Button -->
+<a href="https://wa.me/254712703707" target="_blank" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="Chat with us on WhatsApp" style="height: 50px; width: 50px;">
+</a>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Furahia Africa Store</title>
+</head>
+<body>
+  <header>
+    <h1>Furahia Africa Store</h1>
+  </header>
+
+  <main>
+    <!-- Reviews Section -->
+    <section id="reviews" style="background: #fffbe6; padding: 2em;">
+      <h2 style="text-align: center;">What Our Customers Say</h2>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1em; max-width: 900px; margin: auto;">
+        <div style="flex: 1 1 250px; border: 1px solid #ccc; border-radius: 10px; padding: 1em; background: #fff;">
+          <p>"Absolutely love the handmade necklaces! Fast shipping and great quality."</p>
+          <strong>- Amina, UK</strong>
+        </div>
+        <div style="flex: 1 1 250px; border: 1px solid #ccc; border-radius: 10px; padding: 1em; background: #fff;">
+          <p>"I ordered a Maasai shuka and it’s now my favorite scarf. Will order again!"</p>
+          <strong>- Daniel, Germany</strong>
+        </div>
+        <div style="flex: 1 1 250px; border: 1px solid #ccc; border-radius: 10px; padding: 1em; background: #fff;">
+          <p>"The baobab oil is amazing. It really helped my skin stay moisturized."</p>
+          <strong>- Grace, USA</strong>
+        </div>
+        <div style="flex: 1 1 250px; border: 1px solid #ccc; border-radius: 10px; padding: 1em; background: #fff;">
+          <p>"Impressed by the beautiful packaging and authentic feel. Highly recommend."</p>
+          <strong>- Lucas, Australia</strong>
+        </div>
+        <div style="flex: 1 1 250px; border: 1px solid #ccc; border-radius: 10px; padding: 1em; background: #fff;">
+          <p>"Great service and excellent quality! The kikapu bag is beautiful."</p>
+          <strong>- Sophia, Canada</strong>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Furahia Africa Store</p>
+  </footer>
+</body>
+</html>
